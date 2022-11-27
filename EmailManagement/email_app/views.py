@@ -66,7 +66,7 @@ def sendVerifyCode(request):
         res = getPostValues(request.POST)
         try:
             verifyCode = createVerfyCode()
-            sendEmail('1755742107@qq.com', 'wjocdjymmnakcdbi', res['username'], str(verifyCode), '因迈尔邮箱验证码')
+            sendEmail('1755742107@qq.com', 'wjocdjymmnakcdbi', res['username'], str(verifyCode), 'HIT-Email邮箱验证码')
             res['verifyCode'] = verifyCode
             # 如果是第一次验证码
             if len(username_verifyCode.objects.filter(username=res['username'])) == 0:
@@ -95,7 +95,9 @@ def register(request):
                 if len(Users.objects.filter(**conditions))>0:
                     return HttpResponse('该账号已存在!')
                 else:
+                    print(111)
                     Users.objects.create(username=res['username'], password=res['password'])
+                    print(222)
                     return HttpResponse('Success!')
             except:
                 return HttpResponse('Error!')

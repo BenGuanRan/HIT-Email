@@ -2,7 +2,7 @@ from django.db import models
 
 # 存放用户信息
 class Users(models.Model):
-    username = models.CharField(max_length=32)
+    username = models.CharField(max_length=32, primary_key = True)
     password = models.CharField(max_length=64)
     IMAP = models.CharField(max_length=32)
 
@@ -33,6 +33,11 @@ class Token(models.Model):
     username = models.CharField(max_length=32) # 用户名
     loginTime = models.CharField(max_length=32) # 登录时间戳
     token = models.CharField(max_length=256) # token
+
+# 存放用户数量
+class user_count(models.Model):
+    count = models.IntegerField(max_length=32)
+
 
 """
 等同于sql語句：

@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be519acc-273b-47ca-97da-506df8f86bc1" name="变更" comment="" />
+    <list default="true" id="be519acc-273b-47ca-97da-506df8f86bc1" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailManagement/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/EmailManagement/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmailManagement/EmailManagement/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0002_draftbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0003_hassend_draftbox_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0004_users_apmi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0005_draftbox_sender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0006_username_verifycode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0007_username_verifycode_username.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0008_token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0009_alter_token_token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0010_rename_apmi_users_imap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/migrations/0011_alter_draftbox_content_alter_hassend_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmailManagement/email_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailManagement/email_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmailManagement/email_app/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +34,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -33,7 +54,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_chat_rooms/backend" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -166,5 +188,17 @@
       <updated>1648693804271</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
